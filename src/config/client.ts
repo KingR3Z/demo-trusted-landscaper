@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "3",
 
   // Services
   services: [
@@ -79,9 +79,9 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Joe French", rating: 5, text: "I have no hesitation recommending these people who installed my new 100’ fence in my back garden. Had a really good experience with these guys. Ultra reliable. Did exactly what they said they were going to do. Kept me informed of progress …    Resp", date: "7 months ago" },
+    { name: "D F", rating: 5, text: "I'd highly recommend Marcin and the process he offers. We found Nuyard online and popped in to choose porcelain paving slabs. Marcin not only helped us choose the most suitable products, but introduced us to a referral service for choosing …  ", date: "11 months ago" },
+    { name: "Minoo19", rating: 5, text: "You are a great team. You are on time hardworking and very polite. We are very happy with the jobs you have done so far. We also planning to use your services in the future.  Thank you ", date: "Edited 6 months ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
